@@ -13,7 +13,7 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="555.0" prefWidth="723.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.imagenesarrastrables.controller.WarshipController">
    <children>
       <Button layoutX="225.0" layoutY="513.0" mnemonicParsing="false" onAction="#retornar" prefWidth="76.0" text="Retornar" />
-      <GridPane alignment="CENTER" gridLinesVisible="true" layoutX="30.0" layoutY="44.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="440.0" style="-fx-border-color: #000; -fx-background-color: #A9F0F7;">
+      <GridPane fx:id="gridPane" alignment="CENTER" gridLinesVisible="true" layoutX="30.0" layoutY="44.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="440.0" style="-fx-border-color: #000; -fx-background-color: #A9F0F7;">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
